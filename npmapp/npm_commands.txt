@@ -1,0 +1,30 @@
+Commands:
+    npm init
+        Create package.json file
+
+    npm install --save "package_name_with_version"
+        install package and add it in packaage.json as dependency
+
+    npm install -g --save 
+        Will install globally
+
+    npm install 
+        Will install dependencies listed in package.json
+
+    npm install --save-dev "package_name"(like nodemon)
+    npm install -D "package_name"
+        Will install the dependency as dev dependency
+        These packages are only required during the time of development
+
+    npm remove "package_name"
+    npm uninstall "package_name"
+    npm rm "package_name"
+    npm un "package_name"
+        Above all commands uninstall the installed packages
+        With -g it will uninstall all the global packages installed
+
+    node file_name
+        Will run the file in terminal
+
+    node run "index_name_in_script(package.json)"
+        will execute the command mentioned in "script" key in package.json
